@@ -25,7 +25,7 @@
 
 function getShippingMessage(country, price, deliveryFee) {
   const totalPrice = price + deliveryFee;
-  return `Shipping to ${country} will cost ${totalPrice} credits`;
+  return `Shipping to ${country} will cost ${totalPrice} credits`; }
 function makeArray(firstArray, secondArray, maxLength) {
   let addedArray = firstArray.concat(secondArray);
   if (addedArray.length > maxLength) {

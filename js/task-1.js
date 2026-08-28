@@ -8,9 +8,9 @@
 // console.log(makeTransaction(10, 500)); // "You ordered 10 droids worth 5000 credits!"
 
 //
-function makeTransaction(quantity, pricePerDroid) {
-  const totalPrice = quantity * pricePerDroid;
-  return `You ordered ${quantity} droids worth ${totalPrice} credits!`;
+// function makeTransaction(quantity, pricePerDroid) {
+//   const totalPrice = quantity * pricePerDroid;
+//   return `You ordered ${quantity} droids worth ${totalPrice} credits!`; }
 function slugify(title) {
   const slug = title.split(' ').join('-').toLowerCase();
   return slug;

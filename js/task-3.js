@@ -3,7 +3,7 @@ function getElementWidth(content, padding, border) {
   const contentWidth = parseFloat(content);
   const paddingWidth = parseFloat(padding);
   const borderWidth = parseFloat(border);
-  return contentWidth + paddingWidth * 2 + borderWidth * 2;
+  return contentWidth + paddingWidth * 2 + borderWidth * 2; }
 function filterArray(numbers, value) {
   const currentNumber = [];
   for (const number of numbers) {
